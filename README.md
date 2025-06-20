@@ -1,4 +1,4 @@
-# Discord Bot
+# InfernoMind
 This is a Discord Bot to run various systems within my Discord server: www.discord.gg/UHkbvQWSRn
 
 There are three main functionalities this bot will provide for the server:
