@@ -3,6 +3,7 @@ pipeline {
 		docker { 
 			image 'node:22.16.0-alpine3.22' 
 			label 'linux'
+			args '-u root'
 		}
 	}
 	stages {
