@@ -1,17 +1,25 @@
 pipeline {
-	agent { label 'linux' }
-	tools { git 'Git-Linux' }
+	agent {
+		docker { 
+			image 'node:22.16.0-alpine3.22' 
+			agent { label 'linux' }
+		}
+	}
 	stages {
-		stage('Checkout Code') {
+		stage('Install') {
 			steps {
+				echo "Installing git in container"
+				sh 'apk add --no-cache git'
+				echo "Git is now installed: "
+				sh 'git --version'
+				echo "Checking out code"
 				checkout scm
 			}
 		}
-
+		
 		stage('Build') {
-			agent { docker { image 'node:22.16.0-alpine3.22' } }
 			steps {
-				echo "Running in a Docker Container!"
+				echo "Node.js Version: "
 				sh 'node --version'
 			}
 		}
