@@ -5,8 +5,6 @@ InfernoMind is a multifuntional Discord bot designed to be the central control p
 - Project Management
 - Dune Awakening Integration
 
-**You can join our Discord Server here:** www.discord.gg/UHkbvQWSRn
-
 ## Table of Contents
 - [Key Features](#key-features)
 - [Getting Started](#getting-started)
