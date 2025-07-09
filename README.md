@@ -30,7 +30,7 @@ One project for the Studio is to have a Dune Awakening Discord server to provide
 In the future we may have certain modules within the bot be usable for any server but for now we are only focused on building for our server. If we decide to build public modules, we will include the bot's invite link here.
 
 For now, you can use the commands within our server:
-[>> Join the InfernoMind Studio's Discord Server Here <<](www.discord.gg/UHkbvQWSRn)
+[>> Join the InfernoMind Studio's Discord Server Here <<](https://www.discord.gg/UHkbvQWSRn)
 
 ## Commands
 
