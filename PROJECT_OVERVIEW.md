@@ -123,7 +123,7 @@ Our project will be separated into different tasks within different phases; Phas
 
 #### Phase 1
 
-- [ ] **Task 1:** Project Documentation
+- [x] **Task 1:** Project Documentation
   - Details: Conceptualize the project within documentation
   - Deliverables: *`README.md`*, *`PROJECT_OVERVIEW.md`*
   - Deadline: `2025-07-15`
