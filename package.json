@@ -1,0 +1,28 @@
+{
+  "name": "inferno-mind",
+  "version": "0.1.0-pre-development",
+  "description": "This is a discord bot that will help improve moderation, server management, and project management within the InfernoMind Studio's Discord Server",
+  "homepage": "https://github.com/Variant457/discord-bot#readme",
+  "bugs": {
+    "url": "https://github.com/Variant457/discord-bot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Variant457/discord-bot.git"
+  },
+  "license": "GPL-3.0",
+  "author": "Variant",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "@stylistic/eslint-plugin": "^5.2.0",
+    "eslint": "^9.31.0"
+  }
+}
