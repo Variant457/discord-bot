@@ -38,7 +38,7 @@ The following functional requirements define specific features needed to reach o
 
 #### Version 0.1.0-pre-production
 
-- [ ] Implement a Latency Command for debugging
+- [x] Implement a Latency Command for debugging
 
 #### Version 0.2.0-alpha
 
@@ -128,10 +128,10 @@ Our project will be separated into different tasks within different phases; Phas
   - Deliverables: *`README.md`*, *`PROJECT_OVERVIEW.md`*
   - Deadline: `2025-07-15`
   - Benefits: Having centralized documentation for complete project understanding
-- [ ] **Task 2:** Initial Bot Setup - `v0.1.0-pre-development`
+- [x] **Task 2:** Initial Bot Setup - `v0.1.0-pre-development`
   - Details: Getting the initial project setup with a latency command to have a hostable product
   - Deliverables: *`package.json`*, *`main.js`*
-  - Deadline: `2025-07-18`
+  - Deadline: `2025-07-19`
   - Benefits: Gives an initial project that we can use to test each step of the CI/CD pipeline process
 - [ ] **Task 3:** CI/CD Pipeline Setup
   - Details: Using Ansible, Docker, Jenkins, Kubernetes, Terraform, Prometheus, Grafana, and Nginx to setup the servers in use and create an automated pipeline through these applications

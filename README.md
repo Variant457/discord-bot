@@ -33,8 +33,8 @@ For now, you can use the commands within our server:
 ## Commands
 
 | Command | Module | Permission Lvl | Description |
-| :-----: | :----: | :------------: | :---------- |
-| TBD     | TBD    | TBD            | TBD         |
+|:-------:|:------:|:--------------:|:------------|
+| `ping` | Utility | Everyone | Responds with the current server latency |
 
 ## Technical Architecture
 
